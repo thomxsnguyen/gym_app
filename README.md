@@ -1,25 +1,23 @@
-# Gym App 🏋️‍♂️
+# Clone the GitHub repository
 
-A full-stack fitness tracking application designed to help users plan workouts, log progress, and stay consistent — whether at home, the gym, or on the go.
-
-> 🚧 This project is currently under active development. Features, structure, and UI may evolve over time.
-
----
-
-## 📂 Branch Overview
-
-This repository uses a **multi-branch** structure to support platform-specific development:
-
-- `main` – Primary branch for production-ready or shared code.
-- `web` – Frontend **web version** of the app built with React + Tailwind CSS.
-- `mobile` – **Mobile version** of the app built with React Native using Expo.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/thomxsnguyen/gym_app.git
+
+# Navigate into the project folder
+
 cd gym_app
+
+# Checkout the mobile branch
+
+git checkout mobile
+
+# If your mobile app is in a subfolder (e.g., mobile-app), cd into it
+
+cd mobile-app # <-- Change this if your folder is named differently
+
+# Install dependencies
+
+npm install
+
+# Start the Expo development server
+
+npx expo start
